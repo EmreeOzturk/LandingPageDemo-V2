@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Odibee Sans', cursive;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    width: 100%;
+    
+}
+
+header .container .roww {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+}
+
+a:hover {
+    text-decoration: none;
+    color: red;
+    transition: 0.3s all ease;
+}
+
+#logo-text {
+    margin-left: 20px;
+    font-size: 36px;
+
+}
+
+header .navbarlist {
+    display: flex;
+}
+
+.navbarlist li {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 24px;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+#mainContent p,
+#services p,
+#works p,
+#team p {
+    font-size: 24px;
+    margin: 40px 0;
+}
+
+#mainContent button {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    font-size: 24px;
+}
+
+.mainArea button:hover {
+    transform: scale(1.1);
+    transition: 0.3s all ease;
+    color: #000;
+}
+
+#mainContent {
+    padding-top: 50px;
+    background-image: url(/img/bg1.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+
+}
+
+.mainArea {
+    margin-top: 150px;
+}
+
+#services {
+    background-color: antiquewhite;
+    padding-top: 100px;
+}
+
+
+
+#services h1,
+#services h2 {
+    color: #F0AD4E;
+}
+
+.servicesContent {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+
+}
+
+#services i {
+    font-size: 60px;
+}
+
+.serviceItem {
+    margin-top: 30px;
+    width: 30%;
+    background-color: rgb(209, 209, 209);
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+.serviceItem:hover {
+    transform: scale(1.1);
+    transition: all 1s ease;
+}
+
+#services .fa {
+    color: #F0AD4E;
+}
+
+/* works start */
+#works {
+    background-image: url(/img/bg2.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+
+
+.worksContent {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.contentItem img {
+    width: 23%;
+    height: 250px;
+    border-radius: 20px;
+
+}
+
+.contentItem img:hover {
+    transform: scale(1.1);
+    transition: 1s all ease;
+}
+
+/* works end */
+
+/* counter start */
+#counter {
+    background-color: antiquewhite;
+}
+
+#counter .container {
+    padding: 60px 0px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#counter .fa {
+    color: #F0AD4E;
+    font-size: 80px;
+}
+
+#counter h3 
+{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* counter end */
+/* TEAM START */
+#team{
+    padding: 60px 0px;
+    background-image: url(/img/bg3.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.teamContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.teamContent .contentItem {
+    width: 33%;
+}
+.teamTop h2{
+    font-size: 48px;
+}
+.teamContent img{
+    width: 60%;
+}
+#team .fa-brands{
+    font-size: 40px;
+    margin-right: 6px;
+}
+#team p{
+    margin: 0;
+    padding: 5px;
+}
+
+/* TEAM END */
